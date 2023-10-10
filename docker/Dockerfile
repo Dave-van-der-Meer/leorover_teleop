@@ -1,5 +1,5 @@
 # Use the official ROS2 image as the base image
-FROM ros:foxy-ros-base
+FROM ros:humble-ros-base
 LABEL maintainer="Dave van der Meer <dave.vandermeer@uni.lu>"
 
 
