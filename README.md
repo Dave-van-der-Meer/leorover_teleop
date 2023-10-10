@@ -17,3 +17,9 @@ $ ./docker_build.sh
 When the build is finished, you can use the script `docker_run.sh` to start the Docker container. It will copy the `ROS_DOMAIN_ID` from the host. You can modify this file to change the topic name for the `cmd_vel` messages. By default, it is set to `/leo01/cmd_vel`.
 
 This repo has been tested with an XBOX 360 controller (wired only) and a PlayStation 4 controller (via Bluetooth). 
+
+Run the container with:
+
+```shell-session
+$ ./docker_run.sh
+```
