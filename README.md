@@ -6,7 +6,7 @@ This is a repository to use 'teleop_twist_joy' node in ROS 2, adapted for the Le
 Clone the repository:
 
 ```shell-session
-$ git clone git@github.com:Dave-van-der-Meer/leorover_teleop.git
+$ git clone https://github.com/Dave-van-der-Meer/leorover_teleop.git
 ```
 Then, enter the `docker` folder to build the image by using the script called `docker_build.sh`:
 
